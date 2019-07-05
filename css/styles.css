@@ -1,8 +1,6 @@
-.columns {
-  float: left;
-  width:30%;
-  padding:10px;
-  margin-left: 20px;
+.portfolio {
+  display: flex;
+  flex-direction: row;
 }
 .language {
   color: skyblue;
