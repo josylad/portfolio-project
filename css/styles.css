@@ -4,7 +4,8 @@
   padding:5px;
 }
 .language {
-  color: green;
+  color: skyblue;
+  font-weight: bold;
 }
 body {
   font-family: sans-serif;
@@ -17,5 +18,10 @@ button {
   text-align: center;
   text-decoration: none;
   display: inline-block;
-  font-size: 16px;
+  font-size: 14px;
+  font-weight: bold;
+}
+.point {
+  color: blue;
+  font-weight: bold;
 }
