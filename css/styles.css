@@ -22,6 +22,27 @@ button {
   font-weight: bold;
 }
 .point {
-  color: blue;
+  color: skyblue;
   font-weight: bold;
+}
+.flexpart{
+  display: flex;
+  flex-direction: row;
+}
+#row1 {
+  margin-left:10%;
+}
+#row2 {
+  margin-left:20%;
+}
+h2 {
+  text-align: center;
+  color: #4CAF50;
+  background-color: #F6F6F6;
+  padding:10px;
+}
+img {
+  border-radius: 8px;
+  float: left;
+  
 }
