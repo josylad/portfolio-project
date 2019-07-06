@@ -6,29 +6,29 @@
     <link rel="stylesheet" href="css/styles.css">
   </head>
   <body>
-    <div class="navbar">
-      <h1>Joseph Adediji's Portfolio</h1>
+  <div class="navbar">
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#aboutme">About</a></li>
+      <li><a href="#projects">Projects</a></li>
+      <li><a href="#contactme">Contact</a></li>
+    </ul>
+  </div>
+  <h1>Joseph Adediji's Portfolio</h1>
+  <h2 id="aboutme">About Me</h2>
+  <img src="me.png" alt="picture of Joseph" width="250px">
+  <p>Hi! My name is <strong>Joseph Adediji</strong>. I am a Web Developer, and I'm very passionate and dedicated to my work. I have a first degree in Physics (with electronics), I also have knowledge in digital marketing and computer networking.</p>
+  <p>I have always been a lover of computers and technology; I previously build websites using WordPress and templates but now I am learning to code and build websites from scratch.</p>
+  <p>I have the skills and knowledge neccessary to make your website project a success. I enjoy every step of the design process from discussion to concept and execution, but I derive the most satisfaction in seeing the finished product meet your needs. </p>
+  <div clss="flexpart">
+    <div id="row1">
+      <p><span class="point">My Hobbies:</span></p>
       <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#abooutme">About</a></li>
-        <li><a href="projects">Projects</a></li>
-        <li><a href="#contactme">Contact</a></li>
+        <li>Swimming</li>
+        <li>Travelling</li>
+        <li>Watching movies</li>
       </ul>
     </div>
-    <h2>About Me</h2>
-    <img src="me.png" alt="picture of Joseph" width="250px">
-    <p>Hi! My name is <strong>Joseph Adediji</strong>. I am a Web Developer, and I'm very passionate and dedicated to my work. I have a first degree in Physics (with electronics), I also have knowledge in digital marketing and computer networking.</p>
-    <p>I have always been a lover of computers and technology; I previously build websites using WordPress and templates but now I am learning to code and build websites from scratch.</p>
-    <p>I have the skills and knowledge neccessary to make your website project a success. I enjoy every step of the design process from discussion to concept and execution, but I derive the most satisfaction in seeing the finished product meet your needs. </p>
-    <div class="flexpart">
-      <div id="row1">
-        <p><span class="point">My Hobbies:</span></p>
-        <ul>
-          <li>Swimming</li>
-          <li>Travelling</li>
-          <li>Watching movies</li>
-        </ul>
-      </div>
       <div id="row2">
         <p><span class="point">My Interests are:</span></p>
         <ol>
@@ -38,7 +38,7 @@
         </ol>
     </div>
     </div>
-    <h2>My Portfolio</h2>
+    <h2 id="projects">My Portfolio</h2>
     <div class="portfolio">
       <div>
         <h3>Happy Trails Travel Agency</h3>
@@ -72,8 +72,8 @@
       </div>
     </div>
     <div class="contact">
-      <h2>Contact Me</h2>
-      <h3 class="contacthead">You can contact me by filling the form below</h3>
+      <h2 id="contactme">Contact Me</h2>
+      <h3 class="contacthead">You can contact me by filling the form below. I am also on Twitter <a href="http://twitter.com/josylad" target="_blank">@Josylad</a></h3>
         <form class="" action="" method="post">
           <label for="fname">First Name</label>
           <input type="text" id="fname" name="firstname" placeholder="Your name.." required>
