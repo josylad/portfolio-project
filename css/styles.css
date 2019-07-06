@@ -82,7 +82,10 @@ form {
 margin: 0 auto;
 width:450px;
 }
-.contact{
+/* .contact{
+  text-align: auto;
+} */
+.contacthead{
   text-align: center;
 }
 .navbar ul {
@@ -90,10 +93,14 @@ width:450px;
   margin: 0;
   padding: 0;
   overflow: hidden;
-  background-color: #333
+  background-color: #333;
+  position: -webkit-sticky; /* Safari */
+  position: sticky;
+  top: 0;
 }
 .navbar li {
   display: inline;
+  border-right: 1px solid #bbb;
 }
 .navbar li a {
   color: white;
