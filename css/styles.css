@@ -89,6 +89,7 @@ width:450px;
   list-style-type: none;
   margin: 0;
   padding: 0;
+  background-color: #dddddd;
 }
 .navbar li {
   display: inline;
